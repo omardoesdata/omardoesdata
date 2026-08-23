@@ -2,19 +2,27 @@
 
 # Omar Farooq
 
-### AI/ML Engineer
+### AI/ML Engineer + Data Scientist
 
-**Applied AI · Agentic Systems · Speech AI · Computer Vision · ML Infrastructure · Developer Tooling**
+**Applied AI · Agentic Systems · Speech AI · Computer Vision · ML Infrastructure · Developer Tooling . Data Science & Analytics**
 
-I build AI systems that go beyond experimentation —  
-from **data and training** to **evaluation, deployment, observability and safety**.
+# 📫 Connect
 
-<br>
+Open to conversations around **AI/ML engineering, applied AI, speech systems, agentic AI, MLOps, data science and developer tooling**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-omardoesdata-181717?style=for-the-badge&logo=github)](https://github.com/omardoesdata)
-![Python](https://img.shields.io/badge/Python-Engineering-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![AI/ML](https://img.shields.io/badge/AI%2FML-Production_Systems-6C63FF?style=for-the-badge)
-![Agentic AI](https://img.shields.io/badge/Agentic_AI-MCP_%26_Agents-8A2BE2?style=for-the-badge)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-farooq-7388a0201/)
+[![Medium](https://img.shields.io/badge/Medium-Read_My_Writing-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@omarfarooqq957)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omarfarooqq957@gmail.com)
+[![Resume](https://img.shields.io/badge/Resume-Download_PDF-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./assets/Omar_Farooq_Resume.pdf)
+
+---
+
+<div align="center">
+
+### `Build → Measure → Break → Improve → Ship`
+
+**AI systems should survive contact with the real world.**
 
 </div>
 
