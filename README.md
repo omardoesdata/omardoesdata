@@ -4,7 +4,7 @@
 
 ### AI/ML Engineer + Data Scientist
 
-**Applied AI · Agentic Systems · Speech AI · Computer Vision · ML Infrastructure · Developer Tooling . Data Science & Analytics**
+**Applied AI · Agentic Systems · Speech AI · Computer Vision · ML Infrastructure · Developer Tooling · Data Science & Analytics**
 
 # 📫 Connect
 
@@ -44,6 +44,8 @@ My work spans:
 
 I currently work at **Punjab Information Technology Board (PITB)**, contributing to applied AI systems and government-scale technology projects.
 
+Outside my organizational work, I build open-source developer tooling. My current flagship public project is **[OhMyDB](https://github.com/omardoesdata/ohmydb-proxy)** — a fail-closed database safety proxy designed to catch risky SQL before it reaches the backend.
+
 What interests me most is the part of AI that comes after:
 
 ```python
@@ -72,11 +74,18 @@ continuous improvement
 
 # ⚡ Featured Engineering
 
-## 🛡️ SQL Safety Proxy
+## 🛡️ OhMyDB
 
-A developer-focused database safety layer designed to intercept risky SQL operations **before they reach the backend**.
+> **A fail-closed safety proxy for your database.**  
+> Catch dangerous SQL before your database has to.
 
-`Python` · `PostgreSQL` · `AsyncIO` · `SQL` · `Docker`
+[![GitHub](https://img.shields.io/badge/GitHub-ohmydb--proxy-181717?style=flat-square&logo=github)](https://github.com/omardoesdata/ohmydb-proxy)
+[![Release](https://img.shields.io/github/v/release/omardoesdata/ohmydb-proxy?style=flat-square&label=release)](https://github.com/omardoesdata/ohmydb-proxy/releases/latest)
+[![CI](https://github.com/omardoesdata/ohmydb-proxy/actions/workflows/ci.yml/badge.svg)](https://github.com/omardoesdata/ohmydb-proxy/actions)
+
+**OhMyDB** is an open-source database safety proxy built to intercept risky SQL operations **before they reach the backend** while failing safely when behavior is malformed, ambiguous, or unsupported.
+
+`Python` · `PostgreSQL` · `MySQL/MariaDB` · `AsyncIO` · `SQLGlot` · `Docker`
 
 ### What it does
 
@@ -86,23 +95,27 @@ A developer-focused database safety layer designed to intercept risky SQL operat
 - Transaction-state tracking and recovery
 - Structural and multi-statement protection
 - Audit logging and sanitization
-- Real PostgreSQL end-to-end validation
+- PostgreSQL and MySQL/MariaDB adapter architecture
 - Dockerized non-root runtime
 
 ### Engineering quality
 
 - **341 automated tests**
-- Real PostgreSQL client/driver integration testing
+- Python **3.11 / 3.12 / 3.13** CI
+- Real PostgreSQL client/driver end-to-end validation
 - Fresh-wheel installation validation
-- Docker runtime validation
-- Multi-version Python CI
-- Stable release artifacts with SHA256 checksums
+- Docker build and non-root runtime validation
+- Stable wheel + source distribution artifacts
+- SHA256 release checksums
+- Backward-compatible legacy `sql-safety-proxy` CLI
 
-### Latest stable release
+### Current stable release
 
-**`v1.0.0`**
+**`v1.1.0`**
 
-👉 [Explore SQL Safety Proxy](https://github.com/omardoesdata/sql-safety-proxy)
+Primary CLI: **`ohmydb`**
+
+👉 [Explore OhMyDB](https://github.com/omardoesdata/ohmydb-proxy) · [Latest Release](https://github.com/omardoesdata/ohmydb-proxy/releases/tag/v1.1.0)
 
 ---
 
@@ -206,7 +219,7 @@ LLM Systems         → RAG, structured workflows and evaluation
 Computer Vision     → Human-in-the-loop model improvement
 AI Security         → Safer ML / LLM / developer workflows
 MLOps               → Reproducible training and promotion pipelines
-Developer Tooling   → Tools that make AI/data systems safer to operate
+Developer Tooling   → OhMyDB & safer database operations
 ```
 
 ---
@@ -333,7 +346,7 @@ Worked on analytics automation, experimentation and monetization analysis.
 
 | Project / Workstream | Area | Public |
 |---|---|---|
-| **SQL Safety Proxy** | Database safety / developer tooling | ✅ |
+| **[OhMyDB](https://github.com/omardoesdata/ohmydb-proxy)** | Database safety / developer tooling | ✅ Public |
 | **Urdu Whisper ASR** | Speech AI / fine-tuning | Organizational repo |
 | **YOLO HITL Pipeline** | Computer vision / continuous learning | Organizational repo |
 | **AI SOP Evaluator** | LLM document intelligence | Organizational repo |
@@ -388,7 +401,6 @@ Enough to operate in the real world.
 
 [![GitHub](https://img.shields.io/badge/GitHub-omardoesdata-181717?style=for-the-badge&logo=github)](https://github.com/omardoesdata)
 
-<!-- Replace these with your actual URLs -->
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/omar-farooq-7388a0201/)
 
